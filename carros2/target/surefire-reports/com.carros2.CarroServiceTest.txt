@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.carros2.CarroServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.337 s - in com.carros2.CarroServiceTest
