@@ -13,7 +13,7 @@ public class IndexController {
 	
 	@GetMapping
 	public String get() {
-		return "API dos Carros";
+		return "Raissa eu te amo s2";
 	}
 	
 	@GetMapping("/userInfo")
