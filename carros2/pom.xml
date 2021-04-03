@@ -32,6 +32,12 @@
             <scope>compile</scope>
         </dependency>
 	
+		<dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>6.8.0</version>
+        </dependency>	
+	
         <!-- Security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -87,10 +93,16 @@
             <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
-        
-        
-		
 	</dependencies>
+
+
+	<!-- Google repo -->
+    <repositories>
+        <repository>
+            <id>spring-repo</id>
+            <url>https://maven.google.com/</url>
+        </repository>
+    </repositories>
 	
 
 
